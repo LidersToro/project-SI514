@@ -10,12 +10,12 @@
                 <div class="card">
                     <div class="card-header">
 
-                       <h2>Listado de Ventas</h2><br/>
+                       <h2>Lista de compras de lider</h2><br/>
                        
                        <a href="venta/create">
 
                         <button class="btn btn-primary btn-lg" type="button">
-                            <i class="fa fa-plus fa-2x"></i>&nbsp;&nbsp;Agregar Venta
+                            <i class="fa fa-plus fa-2x"></i>&nbsp;&nbsp;Agregar Compras
                         </button>
 
                         </a>
