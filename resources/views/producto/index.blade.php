@@ -12,7 +12,7 @@
 
                        <h2>Listado de Productos</h2><br/>
                       
-                        <button class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#abrirmodal">
+                        <!--<button class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#abrirmodal">
                             <i class="fa fa-plus fa-2x"></i>&nbsp;&nbsp;Agregar Producto
                         </button>
                         
@@ -20,7 +20,7 @@
                             <button type="button" class="btn btn-success btn-lg">
                                 <i class="fa fa-file fa-2x"></i>&nbsp;&nbsp;Reporte PDF
                                 
-                            </button>
+                            </button>-->
 
                         </a>
 
@@ -48,9 +48,10 @@
                                     <th>Precio Venta (USD$)
                                     <th>Stock</th>
                                     <th>Imagen</th>
-                                    <th>Estado</th>
+                                    <!--<th>Estado</th>
                                     <th>Editar</th>
                                     <th>Cambiar Estado</th>
+                                    -->
                                 </tr>
                             </thead>
                             <tbody>
@@ -70,7 +71,7 @@
                                     </td>
             
 
-                                    <td>
+                                    <!--<td>
                                       
                                       @if($prod->condicion=="1")
                                         <button type="button" class="btn btn-success btn-md">
@@ -112,7 +113,7 @@
 
                                         @endif
                                        
-                                    </td>
+                                    </td>-->
                                 </tr>
 
                                 @endforeach

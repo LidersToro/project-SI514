@@ -48,6 +48,14 @@ Route::group(['middleware' => ['auth']], function () {
     
          
     });
+    Route::group(['middleware' => ['Cliente']], function () {
+
+        Route::get('/listarProductoPdf', 'ProductoController@listarPdf')->name('productos_pdf');
+        Route::resource('venta', 'VentaController');
+        Route::get('/pdfVenta/{id}', 'VentaController@pdf')->name('venta_pdf');
+   
+        
+   });
 
     Route::group(['middleware' => ['Administrador']], function () {
           
