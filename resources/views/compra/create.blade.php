@@ -6,7 +6,7 @@
 
  <div class="card-body">
 
- <h2>Agregar Compra</h2>
+ <h2>Agregar Compra de Jose</h2>
 
  <span><strong>(*) Campo obligatorio</strong></span><br/>
 
